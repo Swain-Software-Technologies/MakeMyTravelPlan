@@ -47,4 +47,7 @@ public class TravelPlan {
 
     @Column(name = "PLAN_UPDATED_BY", length = 20)
     private String updatedBy;
+
+    @Column(name = "ACTIVE_SWITCH", length = 25)
+    private String activeSwitch="active";
     }

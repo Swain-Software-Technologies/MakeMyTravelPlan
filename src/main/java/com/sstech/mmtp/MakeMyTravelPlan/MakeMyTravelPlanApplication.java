@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan("com.sstech.mmtp.Entity")
+@EntityScan("com.sstech.mmtp.MakeMyTravelPlan.Entity")
 @OpenAPIDefinition
 public class MakeMyTravelPlanApplication {
 
